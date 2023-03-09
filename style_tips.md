@@ -40,7 +40,9 @@ A short explination of common style things that people forget!
 - If your printf, scanf, function definition or any other line is longer than 80 characters,
 you can split it over multiple lines
 - here are some examples (more examples in style guide)
-```printf(
+
+```
+printf(
         "According to all known laws of aviation, "
         "there is no way that a %c should be able to fly.\n"
         "Its wings are too small to get its fat little body off the ground.\n"
@@ -62,7 +64,7 @@ you can split it over multiple lines
     // This is best:
     if (thoseThingsAreTrue()) {...}
     
-    ```
+```
 
 
 ## Style Guide
