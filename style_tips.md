@@ -42,7 +42,7 @@ you can split it over multiple lines
 - here are some examples (more examples in style guide)
 
 ```
-printf(
+    printf(
         "According to all known laws of aviation, "
         "there is no way that a %c should be able to fly.\n"
         "Its wings are too small to get its fat little body off the ground.\n"
@@ -52,7 +52,7 @@ printf(
     )
     
     // This is WAY too long:
-    if (something && somethingElse && somethingElseAgain && anotherThing && evenMoreThings && somethingElseEntirely && thereAreTooManyConditions && thisLineIsTooLong) {...}
+    if (something && somethingElse && somethingElseAgain && anotherThing && evenMoreThings && somethingElseEntirely && thereAreTooManyConditions &&                 thisLineIsTooLong) {...}
 
     // This is better (but consider using a function instead):
     if (
@@ -62,7 +62,9 @@ printf(
     ) {...}
 
     // This is best:
-    if (thoseThingsAreTrue()) {...}
+    if (thoseThingsAreTrue()) {
+        ...
+    }
     
 ```
 
